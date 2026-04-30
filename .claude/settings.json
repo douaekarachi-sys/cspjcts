@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/msys64/usr/bin/**)",
+      "PowerShell(& \"c:\\\\msys64\\\\usr\\\\bin\\\\bash.exe\" -c \"which git\" 2>&1)",
+      "PowerShell(& \"c:\\\\msys64\\\\usr\\\\bin\\\\bash.exe\" -c \"ls /usr/bin/git 2>/dev/null && echo found || echo missing\")",
+      "Read(//c/Users/admin/AppData/Local/**)",
+      "Read(//c/Users/admin/AppData/Roaming/**)"
+    ]
+  }
+}
